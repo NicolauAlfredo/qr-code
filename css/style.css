@@ -1,0 +1,31 @@
+body {
+    background-color: gray; 
+    text-align: center;
+    color: white;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+button { 
+    margin-top: 10px;
+    width: 512px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #2F343F;
+    color: white;
+}
+
+.qr-code { 
+    margin: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gerador de QRCode</title>
+</head>
+
+<body>
+    <h1>GERADOR DE QRCODE</h1>
+    <div class="area"> 
+        <textarea rows="4" maxlength="256" placeholder="Insira o seu link ou texto aqui (QR Code será criado automaticamente)"></textarea>
+    </div>
+
+    <div class="botao">
+        <button onclick="gerarQRCode()">QRCode</button>
+    </div>
+
+    <div class="qr-code">
+        <img id="QRCodeImage">
+    </div>
+
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
